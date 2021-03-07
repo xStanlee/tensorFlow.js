@@ -1,7 +1,7 @@
 :root {
   --primary-light: #1e65a0;
   --primary-dark: #173f5f;
-  --font-light: #777;
+  --font-light: #999;
   --font-dark: #333;
 
   --border-radius: 5px;
@@ -44,4 +44,6 @@ h1 {
 
 .emotion {
   color: var(--font-light);
+  z-index: 2;
+  margin-top: -4vh;
 }

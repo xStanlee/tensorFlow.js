@@ -18,22 +18,20 @@
 
   <body>
     <div class="background">
-        <h1 class="text-center text-4xl font-bold mt-20">
+        <h1 class="text-center text-4xl font-bold mt-4">
           <div class="logo-images w-64 mx-auto">
             <img src="https://media.giphy.com/media/RM5wPR6m6qbxaltcgu/giphy.gif" alt="No.content" class="w-64 px-2">
             <img src="https://media.giphy.com/media/MdkKsnkdB7k7gQkOda/giphy.gif" alt="No.lyric" class="image-lyric px-10 ml-14">
           </div>
-          
         </h1>
 
         <div class="flex justify-center items-center relative">
           <canvas class="js-overlay absolute t-0"></canvas>
-          <video class="js-video" width="720" height="560" autoplay muted></video>
+          <video class="js-video pt-6" width="720" height="560" autoplay="true" muted="true"></video>
         </div>
-    </div>
-
-    <div class="emotion js-emotion text-center mt-5 text-2xl uppercase text-6xl"></div>
-    <script src="js/app.js"></script>
+        <div class="emotion js-emotion text-center mt-5 text-2xl uppercase text-6xl">🎥 Loading...</div>
+      </div>
     <script src="js/face-api.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
