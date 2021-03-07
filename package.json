@@ -1,0 +1,26 @@
+{
+  "name": "smallapp",
+  "version": "1.0.0",
+  "description": "small app based on face-api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xStanlee/tensorFlow.js.git"
+  },
+  "keywords": [
+    "face",
+    "api",
+    "usage",
+    "learning"
+  ],
+  "author": "Patryk Stachura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xStanlee/tensorFlow.js/issues"
+  },
+  "homepage": "https://github.com/xStanlee/tensorFlow.js#readme",
+  "dependencies": {}
+}
